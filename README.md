@@ -99,12 +99,17 @@ It then reads the same addresses and verifies that the expected data is returned
 ## 5. Simulation Results
 
 ### 5.1 Waveforms
+<img width="1836" height="672" alt="image" src="https://github.com/user-attachments/assets/b88bbbce-1d56-43f1-953c-6042d0ea4e10" />
+<img width="1166" height="664" alt="image" src="https://github.com/user-attachments/assets/24961859-18b8-4781-aec0-4f582cb55f18" />
+<img width="1899" height="663" alt="image" src="https://github.com/user-attachments/assets/da6a6d96-b93d-4dcb-880e-c721aae6d0eb" />
 
 The simulation verifies the packet routing, memory write operations, memory read operations, and return of read responses through Port 3.
 
 ## 6. Synthesis
 
 ### 6.1 RTL Schematic
+<img width="561" height="971" alt="image" src="https://github.com/user-attachments/assets/00b51f48-6f0f-4c04-9a8e-eb5a6a2682e5" />
+<img width="986" height="546" alt="image" src="https://github.com/user-attachments/assets/5600bdeb-cebd-49ad-ace5-580736a4d1c4" />
 
 The RTL schematic represents the synthesized hierarchy of the four-port packet router, including the FIFO buffers, round-robin arbiter, packet routing logic, and associated memory-node connections.
 
